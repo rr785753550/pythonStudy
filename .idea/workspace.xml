@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07b61938-5432-4bf5-a809-ec9a1231cb68" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicsStudy/07_Judge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicsStudy/08_defFunction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/01_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/01_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/02_tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/02_tuple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/03_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/03_string.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BasicsStudy/08_defFunction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="96">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
@@ -458,8 +457,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BasicsStudy/08_defFunction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+        <state relative-caret-position="96">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
