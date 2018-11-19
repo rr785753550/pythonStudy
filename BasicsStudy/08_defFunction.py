@@ -119,3 +119,49 @@ def globalVar():
 globalVar()
 print(x)        # 结果：2
 
+
+"""嵌套函数"""
+msg = "hello"
+def outerFunction(msg):
+    def nestedFunciton():
+       print(msg)
+    nestedFunciton()
+outerFunction(msg)      # 结果：hello
+
+"""闭包函数"""
+msg = "hello"
+def outerFunction(msg):
+    def nestedFunciton():
+       print(msg)
+    return nestedFunciton()
+# 嵌套函数nestedFunciton中引用有封闭函数outerFunciton的值，且返回nestedFunciton函数，故nestedFunction为闭包函数
+outerFunction(msg)      # 结果：hello
+
+
+def outer():
+    b = 1
+    c = [1, 2, 3]
+    def inner():
+        nonlocal b      # 闭包中申请全局变量使用nonlocal
+        b += 1
+        c[0] += 1
+        print(b, c)     # 结果：2 [2, 2, 3]
+    return inner()
+outer()
+
+
+"""递归函数"""
+# 使用递归方法计算n的阶乘
+def fun(n):
+    if n == 1:
+        return 1
+    else:
+        return n * fun(n-1)
+print(fun(5))               # 结果：120
+# 使用递归方法计算x的n次幂，若使用power方法则直接power(x, n)
+def fun1(x, n):
+    if n == 0:
+        return 1
+    else:
+        return x * fun1(x, n-1)
+print(fun1(2, 3))           # 结果：8
