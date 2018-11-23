@@ -38,6 +38,28 @@ name = Student1().name('zhang')
 score = Student1().score("90")
 print(name, ':', score)         # 结果：zhang : 90
 
+# 类中存在初始化变量，初始变函数中存在变量
+class Student11(object):
+    def __init__(self, name):
+        self.name = name
+
+    def score(self, score):
+        return [self.name, score]
+
+result11 = Student11(name='zhange').score('90')
+print(result11)         # 结果：['zhange', '90']
+
+# 类中存在初始化变量，初始变函数中不存在变量
+class Student12(object):
+    def __init__(self):
+        self.name = 'zhang'
+
+    def score(self, score):
+        return [self.name, score]
+
+result11 = Student12().score('90')
+print(result11)         # 结果：['zhange', '90']
+
 # 没有在类中定义的函数
 def student(name):
     return name
@@ -79,3 +101,7 @@ MyClass().init()
 print(MyClass.number)       # 结果：1
 MyClass().init()
 print(MyClass.number)       # 结果：2
+
+
+
+
