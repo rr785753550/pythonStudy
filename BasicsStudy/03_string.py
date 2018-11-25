@@ -7,6 +7,19 @@ values = ("Jenny", "Hot")
 s1 = format % values
 print(s1)   # 结果： Hello, Jenny! Today is so Hot.
 
+"""format传递字符串内容"""
+s2 = "{}, {} and {}".format("first", "second", "third")
+print(s2)       # 结果：first, second and third
+s3 = "{2}, {1} {0} and {0}".format("first", "second", "third")
+print(s3)       # 结果：third, second first and first
+from math import pi
+s4 = "{name} is {value}.".format(value=pi, name="pai")
+print(s4)        # 结果：pai is 3.141592653589793.
+s5 = "{name} is {value:.2f}.".format(value=pi, name="pai")
+print(s5)       # 结果：pai is 3.14.
+s5 = f"pai is {pi}."  # 替换的字段与变量同名，通过在字符串前面加f的方式传递值
+print(s5)       # 结果：pai is 3.141592653589793.
+
 """字符串方法：center"""
 s = "Hello, World!"
 print(s.center(20))         # 结果：   Hello, World!
