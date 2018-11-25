@@ -102,6 +102,3 @@ print(MyClass.number)       # 结果：1
 MyClass().init()
 print(MyClass.number)       # 结果：2
 
-
-
-
