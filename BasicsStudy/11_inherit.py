@@ -61,8 +61,8 @@ class Person2(object):
 
 class Chinese2(Person2):
     def __init__(self, name, age, language):  # 先继承，再重构
-        Person2.__init__(self, name, age)   # 继承父类的构造方法
-        # super(Chinese1, self).__init__(name, age)     # 另一种继承父类的构造方法
+        # Person2.__init__(self, name, age)   # 继承父类的构造方法
+        super(Chinese2, self).__init__(name, age)     # 另一种继承父类的构造方法
         self.language = language            # 定义类本身的属性
 
     def talk(self):
