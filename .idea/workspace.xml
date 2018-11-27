@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07b61938-5432-4bf5-a809-ec9a1231cb68" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BasicsStudy/14_characteristic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Interface test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Interface test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicsStudy/Basic_14_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicsStudy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepStudy/Deep_02_iterate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepStudy/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicsStudy/11_inherit.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/11_inherit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicsStudy/13_constructFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/13_constructFunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/01_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_01_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/02_tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_02_tuple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/03_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_03_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/04_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_04_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/05_print.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_05_print.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/06_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_06_import.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/07_fuzhi.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_07_fuzhi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/08_Judge.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_08_Judge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/09_defFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_09_defFunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/10_ObjectOriented.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_10_ObjectOriented.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/11_inherit.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_11_inherit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/12_abnormal.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_12_abnormal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/13_constructFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicsStudy/Basic_13_constructFunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/14_characteristic.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepStudy/Deep_01_characteristic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/dateTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/dateTime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicsStudy/pathStudy.py" beforeDir="false" afterPath="$PROJECT_DIR$/pathStudy.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,37 +34,38 @@
     <session id="-1183212158">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
-          <entry key="py" value="12369" />
+          <entry key="dummy" value="3" />
+          <entry key="py" value="12627" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="12369" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="12627" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="19" />
+          <entry key="py" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="19" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
     </session>
@@ -82,41 +98,45 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1454584825">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="15" />
+          <entry key="py" value="1176" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="1176" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="24" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicsStudy/05_print.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicsStudy/13_constructFunction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="90" column="36" lean-forward="true" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BasicsStudy/14_characteristic.py">
+        <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_14_module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BasicsStudy/pathStudy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="758">
+              <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -169,12 +189,16 @@
         <option value="$PROJECT_DIR$/BasicsStudy/11_inherit.py" />
         <option value="$PROJECT_DIR$/BasicsStudy/14_property.py" />
         <option value="$PROJECT_DIR$/BasicsStudy/14_characteristic.py" />
+        <option value="$PROJECT_DIR$/DeepStudy/02_iterate.py" />
+        <option value="$PROJECT_DIR$/BasicsStudy/14_.py" />
+        <option value="$PROJECT_DIR$/BasicsStudy/Basic_14_.py" />
+        <option value="$PROJECT_DIR$/BasicsStudy/Basic_14_module.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1129" />
-    <option name="y" value="70" />
+    <option name="x" value="814" />
+    <option name="y" value="84" />
     <option name="width" value="1388" />
     <option name="height" value="957" />
   </component>
@@ -197,7 +221,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -235,13 +259,18 @@
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="pythonStudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PythonStudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="pythonStudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="PythonStudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="BasicsStudy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PythonStudy" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="DeepStudy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -255,6 +284,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PythonWorkSpace\others\PythonStudy" />
+      <recent name="F:\PythonWorkSpace\others\PythonStudy\DeepStudy" />
+      <recent name="F:\PythonWorkSpace\others\PythonStudy\BasicsStudy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PythonWorkSpace\PythonStudy\BasicsStudy" />
       <recent name="F:\PythonWorkSpace\others\PythonStudy\BasicsStudy" />
     </key>
   </component>
@@ -270,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.14_characteristic">
+  <component name="RunManager" selected="Python.Basic_14_module">
     <configuration name="10_ObjectOriented" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interface test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,28 +318,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicsStudy/10_ObjectOriented.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="11_abnormal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Interface test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BasicsStudy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicsStudy/11_abnormal.py" />
+      <option name="SCRIPT_NAME" value="F:\PythonWorkSpace\PythonStudy\BasicsStudy\Basic_10_ObjectOriented.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -325,7 +339,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicsStudy/11_inherit.py" />
+      <option name="SCRIPT_NAME" value="F:\PythonWorkSpace\PythonStudy\BasicsStudy\Basic_11_inherit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,7 +360,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicsStudy/13_constructFunction.py" />
+      <option name="SCRIPT_NAME" value="F:\PythonWorkSpace\PythonStudy\BasicsStudy\Basic_13_constructFunction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,7 +369,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14_characteristic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Basic_14_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interface test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -367,7 +381,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicsStudy/14_characteristic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicsStudy/Basic_14_module.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -377,19 +391,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.11_abnormal" />
       <item itemvalue="Python.13_constructFunction" />
       <item itemvalue="Python.10_ObjectOriented" />
       <item itemvalue="Python.11_inherit" />
-      <item itemvalue="Python.14_characteristic" />
+      <item itemvalue="Python.Basic_14_module" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.14_characteristic" />
+        <item itemvalue="Python.Basic_14_module" />
         <item itemvalue="Python.13_constructFunction" />
         <item itemvalue="Python.11_inherit" />
         <item itemvalue="Python.10_ObjectOriented" />
-        <item itemvalue="Python.11_abnormal" />
       </list>
     </recent_temporary>
   </component>
@@ -415,7 +427,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19088937" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32212582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30995476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -448,17 +460,7 @@
     <entry file="file://$PROJECT_DIR$/processStudy.py" />
     <entry file="file://$PROJECT_DIR$/pillowStudy.py" />
     <entry file="file://$PROJECT_DIR$/collectionsModular.py" />
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/04_dict.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/dateTime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/06_import.py">
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_04_dict.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/PIL/Image.py">
@@ -484,22 +486,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/03_string.py">
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_03_string.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/02_tuple.py">
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_02_tuple.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/01_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/BasicsStudy/07_Judge.py" />
@@ -514,48 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/10_ObjectOriented.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/05_print.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/12_abnormal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/pathStudy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/11_inherit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="64" column="68" selection-start-line="64" selection-start-column="68" selection-end-line="64" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/13_constructFunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="90" column="36" lean-forward="true" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-2147299710/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1275">
@@ -563,10 +516,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasicsStudy/14_characteristic.py">
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_05_print.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        <state relative-caret-position="361">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pathStudy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepStudy/Deep_01_characteristic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepStudy/Deep_02_iterate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dateTime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-2147299710/sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="609" selection-start-line="609" selection-end-line="609" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_01_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepStudy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_11_inherit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="68" selection-start-line="64" selection-start-column="68" selection-end-line="64" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_13_constructFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_12_abnormal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_06_import.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_07_fuzhi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_08_Judge.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_09_defFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_10_ObjectOriented.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-203860500/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3476">
+          <caret line="56" column="5" selection-start-line="56" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="e#1749#1761#0" expanded="true" />
+            <element signature="e#3639#5237#0" />
+            <element signature="e#5303#5311#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicsStudy/Basic_14_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
         </state>
       </provider>
     </entry>
