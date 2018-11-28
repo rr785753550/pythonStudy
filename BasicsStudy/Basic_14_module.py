@@ -45,5 +45,11 @@ print(sys.platform)
 
 """os模块"""
 import os
-print(os.environ)
-os.system()
+print(os.environ)               # 显示所有的环境变量
+print(os.environ['ANDROID_HOME'])   # 访问ANDROID_HOME的环境变量
+# 结果：C:\Users\admin\AppData\Local\Android\Sdk\platform-tools
+os.system("adb devices")        # 显示当前adb连接的设备信息
+os.system(r'D:\\"Program Files"\"Mozilla Firefox"\firefox.exe')     # Windows下启动浏览器
+# os.system('/usr/bin/firefox')     # Linux下启动浏览器
+os.startfile(r"D:\Program Files\Mozilla Firefox\firefox.exe")       # 启动浏览器
+
