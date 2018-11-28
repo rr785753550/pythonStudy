@@ -49,7 +49,31 @@ print(os.environ)               # 显示所有的环境变量
 print(os.environ['ANDROID_HOME'])   # 访问ANDROID_HOME的环境变量
 # 结果：C:\Users\admin\AppData\Local\Android\Sdk\platform-tools
 os.system("adb devices")        # 显示当前adb连接的设备信息
+
+# 三种启动web浏览器的方法
 os.system(r'D:\\"Program Files"\"Mozilla Firefox"\firefox.exe')     # Windows下启动浏览器
 # os.system('/usr/bin/firefox')     # Linux下启动浏览器
 os.startfile(r"D:\Program Files\Mozilla Firefox\firefox.exe")       # 启动浏览器
+import webbrowser
+webbrowser.open('http://www.baidu.com')     # 默认使用IE浏览器打开网址
+
+
+"""fileinput模块"""
+import fileinput
+# 查看文件所有行
+for line in fileinput.input('test.txt'):
+    print(line)
+# 修改文件并备份原文件
+for line in fileinput.input('test.txt', backup='.bak', inplace=1):
+    line = line.replace('test2', 'test-B')
+    print(line)
+# 输出当前行号和行内容
+for line in fileinput.input('test.txt'):
+    lineno = fileinput.lineno()
+    print(lineno, line)
+# 判断是否为第一行
+for line in fileinput.input('test.txt'):
+    if fileinput.isfirstline():
+        print(line)
+        break
 
