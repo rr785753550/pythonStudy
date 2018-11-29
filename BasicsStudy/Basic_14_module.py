@@ -43,37 +43,65 @@ print(sys.platform)
 # 结果：win32
 
 
-"""os模块"""
-import os
-print(os.environ)               # 显示所有的环境变量
-print(os.environ['ANDROID_HOME'])   # 访问ANDROID_HOME的环境变量
-# 结果：C:\Users\admin\AppData\Local\Android\Sdk\platform-tools
-os.system("adb devices")        # 显示当前adb连接的设备信息
+# """os模块"""
+# import os
+# print(os.environ)               # 显示所有的环境变量
+# print(os.environ['ANDROID_HOME'])   # 访问ANDROID_HOME的环境变量
+# # 结果：C:\Users\admin\AppData\Local\Android\Sdk\platform-tools
+# os.system("adb devices")        # 显示当前adb连接的设备信息
+#
+# # 三种启动web浏览器的方法
+# os.system(r'D:\\"Program Files"\"Mozilla Firefox"\firefox.exe')     # Windows下启动浏览器
+# # os.system('/usr/bin/firefox')     # Linux下启动浏览器
+# os.startfile(r"D:\Program Files\Mozilla Firefox\firefox.exe")       # 启动浏览器
+# import webbrowser
+# webbrowser.open('http://www.baidu.com')     # 默认使用IE浏览器打开网址
+#
+#
+# """fileinput模块"""
+# import fileinput
+# # 查看文件所有行
+# for line in fileinput.input('test.txt'):
+#     print(line)
+# # 修改文件并备份原文件
+# for line in fileinput.input('test.txt', backup='.bak', inplace=1):
+#     line = line.replace('test2', 'test-B')
+#     print(line)
+# # 输出当前行号和行内容
+# for line in fileinput.input('test.txt'):
+#     lineno = fileinput.lineno()
+#     print(lineno, line)
+# # 判断是否为第一行
+# for line in fileinput.input('test.txt'):
+#     if fileinput.isfirstline():
+#         print(line)
+#         break
 
-# 三种启动web浏览器的方法
-os.system(r'D:\\"Program Files"\"Mozilla Firefox"\firefox.exe')     # Windows下启动浏览器
-# os.system('/usr/bin/firefox')     # Linux下启动浏览器
-os.startfile(r"D:\Program Files\Mozilla Firefox\firefox.exe")       # 启动浏览器
-import webbrowser
-webbrowser.open('http://www.baidu.com')     # 默认使用IE浏览器打开网址
 
-
-"""fileinput模块"""
-import fileinput
-# 查看文件所有行
-for line in fileinput.input('test.txt'):
-    print(line)
-# 修改文件并备份原文件
-for line in fileinput.input('test.txt', backup='.bak', inplace=1):
-    line = line.replace('test2', 'test-B')
-    print(line)
-# 输出当前行号和行内容
-for line in fileinput.input('test.txt'):
-    lineno = fileinput.lineno()
-    print(lineno, line)
-# 判断是否为第一行
-for line in fileinput.input('test.txt'):
-    if fileinput.isfirstline():
-        print(line)
-        break
+"""集合"""
+# 创建集合
+setTogether = set(range(10))
+print(setTogether)              # 结果：{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+string1 = 'test'
+print(set(string1))             # 结果：{'s', 'e', 't'}
+list1 = ['a', 'b', 'c']
+print(set(list1))               # 结果：{'b', 'a', 'c'}
+# 空{}并不是集合类型
+print(type(setTogether))        # 结果：<class 'set'>
+print(type({}))                 # 结果：<class 'dict'>
+# 集合中无重复元素
+print({0, 1, 2, 3, 0, 3, 5})    # 结果：{0, 1, 2, 3, 5}
+# 集合是无序的
+print({'fee', 'file', 'fae'})   # 结果：{'fee', 'fae', 'file'}
+# 集合运算
+a = {1, 2, 3}
+b = {2, 3, 4}
+print(a.union(b))           # 结果：{1, 2, 3, 4}
+print(a | b)                # 结果：{1, 2, 3, 4}
+print(a.intersection(b))    # 结果：{2, 3}
+print(a & b)                # 结果：{2, 3}
+print(a - b)                # 结果：{1}
+print(a.difference(b))      # 结果：{1}
+print(b - a)                # 结果：{4}
+print(b.difference(a))      # 结果：{4}
 
