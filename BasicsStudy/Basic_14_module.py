@@ -93,15 +93,91 @@ print(type({}))                 # 结果：<class 'dict'>
 print({0, 1, 2, 3, 0, 3, 5})    # 结果：{0, 1, 2, 3, 5}
 # 集合是无序的
 print({'fee', 'file', 'fae'})   # 结果：{'fee', 'fae', 'file'}
+
 # 集合运算
 a = {1, 2, 3}
 b = {2, 3, 4}
+# 并集
 print(a.union(b))           # 结果：{1, 2, 3, 4}
 print(a | b)                # 结果：{1, 2, 3, 4}
+# 交集
 print(a.intersection(b))    # 结果：{2, 3}
 print(a & b)                # 结果：{2, 3}
+# 差集
 print(a - b)                # 结果：{1}
 print(a.difference(b))      # 结果：{1}
 print(b - a)                # 结果：{4}
 print(b.difference(a))      # 结果：{4}
+# 对称差集
+print(a.symmetric_difference(b))    # 结果：{1, 4}
+print(a ^ b)                        # 结果：{1, 4}
+# 判断a是否为b的子集
+print(a.issubset(b))    # 结果：False
+# 判断a是否为b的父集
+print(a.issuperset(b))  # 结果：False
 
+# 集合：增删改查
+# 增加一个元素
+a.add(8)
+print(a)    # 结果：{8, 1, 2, 3}
+# 增加一个列表
+a.update(['x', 'y'])
+print(a)    # 结果：{1, 2, 3, 8, 'x', 'y'}
+# 随机删除一个元素
+a.pop()
+print(a)      # 结果：{2, 3, 8, 'y', 'x'}
+# 删除一个指定元素
+a.remove('x')
+print(a)        # 结果：{2, 3, 'y', 8}
+# 删除一个指定元素，并返回该元素
+a.discard('y')
+print(a)        # 结果：{2, 3, 8}
+# 从集合a中删除另一集合b中所有元素
+a.difference_update(b)
+print(a)        # 结果：{8}
+# 将a和b的对称差更新到集合a中
+a.symmetric_difference_update(b)
+print(a)        # 结果：{2, 3, 4, 8}
+
+# 清空集合中所有元素
+a.clear()
+print(a)       # 结果： set()
+
+
+
+"""堆"""
+from heapq import *
+from random import shuffle
+data = list(range(10))
+print(data)         # 结果：[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+shuffle(data)
+print(data)         # 结果：[9, 8, 4, 3, 6, 0, 5, 7, 1, 2]
+heap = []
+for i in data:
+    heappush(heap, i)
+print(heap)             # 结果：[0, 1, 3, 4, 2, 8, 5, 9, 7, 6]
+print(heappop(heap))    # 结果：0
+print(heappop(heap))    # 结果：1
+print(heap)             # 结果：[2, 4, 3, 5, 6, 9, 8, 7]
+
+heap1 = [5, 6, 1, 4, 9, 2]
+heapify(heap1)
+print(heap1)             # 结果：[1, 4, 2, 6, 9, 5]
+heapreplace(heap1, 0.5)
+print(heap1)            # 结果：[0.5, 4, 2, 6, 9, 5]
+
+
+
+"""双端队列"""
+from collections import deque
+x = deque(range(5))
+print(x)              # 结果：deque([0, 1, 2, 3, 4])
+x.append(5)
+print(x)              # 结果：deque([0, 1, 2, 3, 4, 5])
+print(x.pop())        # 结果： 5
+print(x.popleft())    # 结果： 0
+print(x)              # 结果：deque([1, 2, 3, 4])
+x.rotate(3)
+print(x)              # 结果：deque([2, 3, 4, 1])
+x.rotate(-1)
+print(x)              # 结果：deque([3, 4, 1, 2])
