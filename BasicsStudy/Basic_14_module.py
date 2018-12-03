@@ -181,3 +181,49 @@ x.rotate(3)
 print(x)              # 结果：deque([2, 3, 4, 1])
 x.rotate(-1)
 print(x)              # 结果：deque([3, 4, 1, 2])
+
+
+"""time模块"""
+import time
+tuple1 = (2018, 11, 2, 18, 34, 30, 3, 20, 1)
+time1 = time.asctime(tuple1)
+print(time1)        # 结果：Thu Nov  2 18:34:30 2018
+time2 = time.asctime()
+print(time2)        # 结果： Mon Dec  3 18:45:43 2018
+time3 = time.localtime(2584000)
+print(time3)        # 结果：time.struct_time(tm_year=1970, tm_mon=1, tm_mday=31, tm_hour=5, tm_min=46, tm_sec=40, tm_wday=5, tm_yday=31, tm_isdst=0)
+time4 = time.mktime(tuple1)
+print(time4)        # 结果：1541154870.0f
+time.sleep(2)       # 休眠2秒
+time5 = time.strptime("30 Nov 00", "%d %b %y")
+print(time5)        # 结果：time.struct_time(tm_year=2000, tm_mon=11, tm_mday=30, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=3, tm_yday=335, tm_isdst=-1)
+# 获取当前时间
+localtime = time.localtime(time.time())
+print(localtime)       # 结果： time.struct_time(tm_year=2018, tm_mon=12, tm_mday=3, tm_hour=19, tm_min=19, tm_sec=20, tm_wday=0, tm_yday=337, tm_isdst=0)
+# 获取格式化的时间
+asc_localtime = time.asctime(time.localtime(time.time()))
+print(asc_localtime)   # 结果： Mon Dec  3 19:19:20 2018
+# 格式化日期
+strf_localtime = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+print(strf_localtime)        # 结果：2018-12-03 19:19:20
+
+
+"""模块random：以下结果是会随机变化的"""
+import random
+random_1 = random.random()
+print(random_1)     # 结果：0.7654444429248211
+random_2 = random.getrandbits(8)
+print(random_2)     # 结果：62
+random_3 = random.uniform(0, 360)
+print(random_3)      # 结果：298.5549513915579
+random_4 = random.randrange(1, 11)
+print(random_4)     # 结果：3
+random_5 = random.randrange(0, 10, 2)
+print(random_5)      # 结果：4
+seq = [1, 3, 4, 6, 3, 2, 1]
+random_6 = random.choice(seq)
+print(random_6)     # 结果：3
+random.shuffle(seq)
+print(seq)          # 结果：[1, 1, 6, 4, 2, 3, 3]
+random_7 = random.sample(seq, 3)
+print(random_7)      # 结果：[3, 1, 2]
