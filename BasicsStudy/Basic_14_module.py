@@ -227,3 +227,30 @@ random.shuffle(seq)
 print(seq)          # 结果：[1, 1, 6, 4, 2, 3, 3]
 random_7 = random.sample(seq, 3)
 print(random_7)      # 结果：[3, 1, 2]
+
+
+"""模块re"""
+import re
+# compile
+pattern = r'([a-z]+) ([a-z]+)'
+s = 'hello world'
+n_pattern = re.compile(pattern, re.I)
+print(n_pattern)        # 结果：re.compile('([a-z]+) ([a-z]+)', re.IGNORECASE)
+match_obj1 = n_pattern.match(s)
+print(match_obj1)                # 结果：匹配成功，返回一个match对象，<_sre.SRE_Match object; span=(0, 11), match='hello world'>
+match_obj2 = n_pattern.match("11")
+print(match_obj2)               # 结果：匹配失败，返回空，None
+# search
+search_obj = re.search(pattern, s, re.I)
+print(search_obj)               # 结果：<_sre.SRE_Match object; span=(0, 11), match='hello world'>
+print(search_obj.group())       # 结果：hello world
+print(search_obj.group(1))      # 结果：hello
+print(search_obj.group(2))      # 结果：world
+print(search_obj.group(0, 2))   # 结果：('hello world', 'world')
+print(search_obj.groups())      # 结果：('hello', 'world')
+print(search_obj.span())        # 结果：(0, 11)
+print(re.search('com', 'www.runoob.com').span())     # 结果：(11, 14)
+print(re.search('www', 'www.runoob.com').span())     # 结果：(0, 3)
+print(re.search('com', 'www.runoob.com').start())    # 结果： 11
+print(re.search('com', 'www.runoob.com').end())      # 结果： 14
+# match
