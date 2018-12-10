@@ -229,6 +229,30 @@ random_7 = random.sample(seq, 3)
 print(random_7)      # 结果：[3, 1, 2]
 
 
+
+"""模块shelve"""
+import shelve
+s = shelve.open("test.dat")
+s['x'] = ['a', 'b', 'c']
+print(s['x'])       # 结果：['a', 'b', 'c']
+s['x'].append('d')
+print(s['x'])       # 结果：['a', 'b', 'c']
+# 通过传递给临时变量，再存储
+temp = s['x']
+temp.append('d')
+s['x'] = temp
+print(s['x'])       # 结果：['a', 'b', 'c', 'd']
+s.close()
+# 通过设置参数writeback为True
+s1 = shelve.open("test.dat", writeback=True)
+s1['y'] = ['a', 'b']
+print(s1['y'])      # 结果：['a', 'b']
+s1['y'].append('c')
+print(s1['y'])      # 结果：['a', 'b', 'c']
+s1.close()
+
+
+
 """模块re"""
 import re
 # compile
@@ -249,8 +273,49 @@ print(search_obj.group(2))      # 结果：world
 print(search_obj.group(0, 2))   # 结果：('hello world', 'world')
 print(search_obj.groups())      # 结果：('hello', 'world')
 print(search_obj.span())        # 结果：(0, 11)
-print(re.search('com', 'www.runoob.com').span())     # 结果：(11, 14)
-print(re.search('www', 'www.runoob.com').span())     # 结果：(0, 3)
-print(re.search('com', 'www.runoob.com').start())    # 结果： 11
-print(re.search('com', 'www.runoob.com').end())      # 结果： 14
+print(re.search('org', 'www.python.org').span())     # 结果：(11, 14)
+print(re.search('www', 'www.python.org').span())     # 结果：(0, 3)
+print(re.search('org', 'www.python.org').start())    # 结果： 11
+print(re.search('org', 'www.python.org').end())      # 结果： 14
 # match
+match_obj = re.match(pattern, s, re.I)
+print(match_obj)            # 结果： <re.Match object; span=(0, 11), match='hello world'>
+print(match_obj.group())    # 结果： hello world
+print(match_obj.group(1))   # 结果： hello
+print(match_obj.group(2))   # 结果： world
+match_obj1 = re.match("www", "www.python.org")
+print(match_obj1)            # 结果：<re.Match object; span=(0, 3), match='www'>
+print(match_obj1.span())     # 结果：(0, 3)
+match_obj2 = re.match("org", "www.python.org")
+print(match_obj2)           # 结果：None
+# split
+s = " hello, world, Yes. "
+split_obj = re.split('\W+', s)
+print(split_obj)        # 结果： ['', 'hello', 'world', 'Yes', '']
+split_obj1 = re.split('(\W+)', s)
+print(split_obj1)       # 结果： ['', ' ', 'hello', ', ', 'world', ', ', 'Yes', '. ', '']
+split_obj2 = re.split('\W+', s, 1)
+print(split_obj2)       # 结果：仅分隔一次，['', 'hello, world, Yes. ']
+split_obj3 = re.split('a', s)
+print(split_obj3)      # 结果：未找到匹配的，不进行分隔， [' hello, world, Yes. ']
+split_obj4 = re.split('[, ]+', s)
+print(split_obj4)      # 结果： ['', 'hello', 'world', 'Yes.', '']
+# findall
+s = "...hello+world--"
+findall_obj = re.findall('\W+', s)
+print(findall_obj)      # 结果： ['...', '+', '--']
+findall_obj1 = re.findall('(\W+)', s)
+print(findall_obj1)      # 结果：['...', '+', '--']
+findall_obj2 = re.findall('(\W)\W+', s)
+print(findall_obj2)      # 结果：['.', '-']
+findall_obj3 = re.findall('(\W)(\W+)', s)
+print(findall_obj3)      # 结果：[('.', '..'), ('-', '-')]
+findall_obj4 = re.findall('(\W)?', s)
+print(findall_obj4)      # 结果：['.', '.', '.', '', '', '', '', '', '+', '', '', '', '', '', '-', '-', '']
+# sub
+s = "123-4567-8900   # 这是一个电话号码"
+print(re.sub(r'#.*$', "", s))   # 删除字符串中的注释，123-4567-8900
+print(re.sub(r'\D', '', s))     # 删除字符串中的非数字，12345678900
+# escape
+print(re.escape('www.python.org'))    # 结果：www\.python\.org
+
